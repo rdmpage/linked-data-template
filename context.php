@@ -33,7 +33,13 @@ $context->xsd		= "http://www.w3.org/2001/XMLSchema#";
 
 // --- domain specific namespaces --------------------------------------------------------
 
+// Darwin Core
 $context->dwc		= "http://rs.tdwg.org/dwc/terms/";
 $context->dwcuri	= "http://rs.tdwg.org/dwc/iri/";
+
+// TDWG
+$context->tn = "http://rs.tdwg.org/ontology/voc/TaxonName#";
+$context->tcom = "http://rs.tdwg.org/ontology/voc/Common#";
+$context->tpc = "http://rs.tdwg.org/ontology/voc/PublicationCitation#";
 
 ?>
