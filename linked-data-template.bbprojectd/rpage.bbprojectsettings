@@ -4,7 +4,7 @@
 <dict>
 	<key>EmbeddedEditorHidden:rpage</key>
 	<false/>
-	<key>ExpandedEditorWidth:rpage:displays([(0, 0), (1440, 900)])</key>
+	<key>ExpandedEditorWidth:rpage:displays([(0, 0), (1440, 900)]:[(-1920, 0), (1920, 1080)])</key>
 	<integer>758</integer>
 	<key>ExpandedItems:rpage</key>
 	<array>
@@ -48,6 +48,114 @@
 	<integer>0</integer>
 	<key>OpenDocuments:rpage</key>
 	<array>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
+			Ym9vaygDAAAAAAQQMAAAALpyDO5qwklykZur/bLIo1nk+wnkZw5q
+			jLPEWBecbN8dGAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
+			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUJAAAAAQEAAC5odGFjY2Vz
+			cwAAABQAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMA
+			ABBnAgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZMAAAA
+			AAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAACQ9CAEAwAAABQAAAAB
+			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHCUdbFAh2Z
+			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
+			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
+			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
+			BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1C
+			NDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
+			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
+			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAAtaAQDY
+			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
+			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
+			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
+			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
+			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
+			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/rpage/Sites/linked-data-template/.htaccess</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./.htaccess</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
+			Ym9vaygDAAAAAAQQMAAAAJcG3u7puryH+fWTFUwL2utIbkw8dptn
+			DgAuIKk8XBU1GAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
+			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUKAAAAAQEAAGluZGV4Lmh0
+			bWwAABQAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMA
+			ABBnAgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZMAAAA
+			AAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAADm+B4EAwAAABQAAAAB
+			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHCTo9QM/jI
+			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
+			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
+			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
+			BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1C
+			NDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
+			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
+			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAAFaAQDY
+			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
+			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
+			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
+			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
+			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
+			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/rpage/Sites/linked-data-template/index.html</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./index.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
+			Ym9vaygDAAAAAAQQMAAAAKjbCIFAwLszx+PCofBuxud/br/2y4Fq
+			joN2dFklS0IlGAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
+			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGULAAAAAQEAAGNvbnRleHQu
+			cGhwABQAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMA
+			ABBnAgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZMAAAA
+			AAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAAALyx4EAwAAABQAAAAB
+			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHCQKxrS4wp
+			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
+			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
+			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
+			BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1C
+			NDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
+			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
+			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAP9ZAQDY
+			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
+			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
+			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
+			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
+			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
+			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/rpage/Sites/linked-data-template/context.php</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./context.php</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>BookmarkData</key>
 			<data>
@@ -124,42 +232,6 @@
 		<dict>
 			<key>BookmarkData</key>
 			<data>
-			Ym9vaygDAAAAAAQQMAAAAJcG3u7puryH+fWTFUwL2utIbkw8dptn
-			DgAuIKk8XBU1GAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
-			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUKAAAAAQEAAGluZGV4Lmh0
-			bWwAABQAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMA
-			ABBnAgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZMAAAA
-			AAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAADm+B4EAwAAABQAAAAB
-			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHCTo9QM/jI
-			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
-			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
-			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
-			BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1C
-			NDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
-			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
-			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAAFaAQDY
-			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
-			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
-			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
-			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
-			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
-			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/rpage/Sites/linked-data-template/index.html</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./index.html</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
 			Ym9va3gDAAAAAAQQMAAAALC0RQnu0RL5ar20sDE/6E18LG3ernYs
 			7F8ax5oV353uaAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
 			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
@@ -190,42 +262,6 @@
 			<true/>
 			<key>RelativePath</key>
 			<string>./views/partials/utils.ejs</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
-			Ym9vaygDAAAAAAQQMAAAALpyDO5qwklykZur/bLIo1nk+wnkZw5q
-			jLPEWBecbN8dGAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
-			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUJAAAAAQEAAC5odGFjY2Vz
-			cwAAABQAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMA
-			ABBnAgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZMAAAA
-			AAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAACQ9CAEAwAAABQAAAAB
-			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHCUdbFAh2Z
-			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
-			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
-			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
-			BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1C
-			NDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
-			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
-			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAAtaAQDY
-			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
-			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
-			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
-			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
-			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
-			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/rpage/Sites/linked-data-template/.htaccess</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./.htaccess</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -602,7 +638,50 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
+			<key>Location</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9vaygDAAAAAAQQMAAAAKjbCIFAwLszx+PCofBuxud/
+				br/2y4FqjoN2dFklS0IlGAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAFAAAAAQEAAHJwYWdlAAAABQAA
+				AAEBAABTaXRlcwAAABQAAAABAQAAbGlua2VkLWRhdGEt
+				dGVtcGxhdGULAAAAAQEAAGNvbnRleHQucGhwABQAAAAB
+				BgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMAABBn
+				AgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZM
+				AAAAAAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAAALyx4E
+				AwAAABQAAAABBgAAjAAAAJwAAACsAAAAvAAAAMwAAAAI
+				AAAAAAQAAEHCQKxrS4wpGAAAAAECAAABAAAAAAAAAA8A
+				AAAAAAAAAAAAAAAAAAAIAAAABAMAAAMAAAAAAAAABAAA
+				AAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAA
+				TWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
+				BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMt
+				Mzg5OS1CNDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAA
+				AAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAA
+				AAAAAAEFAAAaAAAAAQEAAE5TVVJMRG9jdW1lbnRJZGVu
+				dGlmaWVyS2V5AAAEAAAAAwMAAP9ZAQDYAAAA/v///wEA
+				AAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAAAAAA
+				ABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAA
+				AAAAAAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACI
+				AQAAAAAAABIgAABoAQAAAAAAABMgAAB4AQAAAAAAACAg
+				AAC0AQAAAAAAADAgAADgAQAAAAAAAAHAAAAoAQAAAAAA
+				ABHAAAAgAAAAAAAAABLAAAA4AQAAAAAAABDQAAAEAAAA
+				AAAAAOgBAIAMAgAAAAAAAA==
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/rpage/Sites/linked-data-template/context.php</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Date</key>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -645,7 +724,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -689,7 +768,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -731,7 +810,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -773,7 +852,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -817,7 +896,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -859,7 +938,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -902,7 +981,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -945,7 +1024,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -986,7 +1065,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1028,7 +1107,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1069,7 +1148,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1110,7 +1189,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1153,7 +1232,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
+			<date>2020-06-24T22:23:58Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1192,47 +1271,6 @@
 				<integer>1</integer>
 			</dict>
 		</dict>
-		<dict>
-			<key>Date</key>
-			<date>2020-06-24T20:09:06Z</date>
-			<key>Location</key>
-			<dict>
-				<key>BookmarkData</key>
-				<data>
-				Ym9va+gCAAAAAAQQMAAAAGOLgX0K9J0lcW+ZJpXEL1fA
-				yB4OYI8VlViV9VdzYiiu5AEAAAQAAAADAwAAAAgAKAUA
-				AAABAQAAVXNlcnMAAAAFAAAAAQEAAHJwYWdlAAAABQAA
-				AAEBAABTaXRlcwAAABQAAAABAQAAbGlua2VkLWRhdGEt
-				dGVtcGxhdGUHAAAAAQEAAGVudi5waHAAFAAAAAEGAAAQ
-				AAAAIAAAADAAAABAAAAAXAAAAAgAAAAEAwAAEGcCAAAA
-				AAAIAAAABAMAAIV0DQAAAAAACAAAAAQDAAAEVkwAAAAA
-				AAgAAAAEAwAAdSceBAMAAAAIAAAABAMAAGVGHgQDAAAA
-				FAAAAAEGAACIAAAAmAAAAKgAAAC4AAAAyAAAAAgAAAAA
-				BAAAQcIobn9yfowYAAAAAQIAAAEAAAAAAAAADwAAAAAA
-				AAAAAAAAAAAAAAgAAAAEAwAAAwAAAAAAAAAEAAAAAwMA
-				APUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNp
-				bnRvc2ggSEQIAAAABAMAAADgBANpAAAACAAAAAAEAABB
-				vt1dYgAAACQAAAABAQAAMjVFNDI4NkQtNzEyQy0zODk5
-				LUI0M0YtNUQzRjZBOEJEMTIxGAAAAAECAACBAAAAAQAA
-				AO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAA
-				AQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAAGwAAAAA
-				AAAABRAAANgAAAAAAAAAEBAAAAQBAAAAAAAAQBAAAPQA
-				AAAAAAAAAiAAANABAAAAAAAABSAAAEABAAAAAAAAECAA
-				AFABAAAAAAAAESAAAIQBAAAAAAAAEiAAAGQBAAAAAAAA
-				EyAAAHQBAAAAAAAAICAAALABAAAAAAAAMCAAANwBAAAA
-				AAAAAcAAACQBAAAAAAAAEcAAACAAAAAAAAAAEsAAADQB
-				AAAAAAAAENAAAAQAAAAAAAAA
-				</data>
-				<key>FileURL</key>
-				<string>file:///Users/rpage/Sites/linked-data-template/env.php</string>
-				<key>HasSecurityScope</key>
-				<true/>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
 	</array>
 	<key>ScratchpadItemsExpanded</key>
 	<true/>
@@ -1244,7 +1282,7 @@
 	<false/>
 	<key>ViewSplitterPosition:rpage</key>
 	<real>0.21123829483985901</real>
-	<key>WindowFrame:rpage:displays([(0, 0), (1440, 900)])</key>
-	<string>rect(45,5,880,966)</string>
+	<key>WindowFrame:rpage:displays([(0, 0), (1440, 900)]:[(-1920, 0), (1920, 1080)])</key>
+	<string>rect(153,-1842,988,-881)</string>
 </dict>
 </plist>
