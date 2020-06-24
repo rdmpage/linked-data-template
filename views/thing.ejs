@@ -1,0 +1,58 @@
+var template_thing = `
+
+<%
+
+if (item['@graph']) {
+	item = item['@graph'][0];
+}
+
+%>
+
+<!-- title -->
+<h1>
+	<% 
+	var title = '';
+	
+	if (title == '') {
+		if (item.name) {
+			title = get_literal(item.name);
+		}
+	}
+
+	if (title == '') {
+		if (item['dcterms:title']) {
+			title = get_literal(item['dcterms:title']);
+		}
+	}
+	
+	if (title == '') {
+		if (item['dc:title']) {
+			title = get_literal(item['dc:title']);
+		}
+	}
+	%>
+   <%= title %>
+</h1>
+
+<!-- other things -->
+<div>
+
+<table style="table-layout: fixed;" width="100%">
+
+<% for (var i in item) { %>
+	<tr>
+	<td class="td_key"><%= i %></td>
+	<td class="td_value">
+	<%- get_value(item[i]) %>
+	</td>
+	</tr>
+<% }%>	
+
+</table>
+
+</div>
+
+
+
+
+`;

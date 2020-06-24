@@ -33,5 +33,7 @@ $context->xsd		= "http://www.w3.org/2001/XMLSchema#";
 
 // --- domain specific namespaces --------------------------------------------------------
 
+$context->dwc		= "http://rs.tdwg.org/dwc/terms/";
+$context->dwcuri	= "http://rs.tdwg.org/dwc/iri/";
 
 ?>

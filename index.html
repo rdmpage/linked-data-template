@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- base -->
+   		<base href="/~rpage/linked-data-template/" /><!--[if IE]></base><![endif]-->
+		
+		<title>
+			LD Template
+		</title>
+		<style type="text/css">
+			body { 
+				padding:0px; 
+				font-family: sans-serif; 
+			}
+			
+			h1 {
+				line-height:1.2em;
+			}
+			
+			.td_key {
+				font-weight: bold;
+				overflow-wrap: break-word;
+			}
+			
+			.td_value {
+				overflow-wrap: break-word;
+			}
+
+				/* https://every-layout.dev/layouts/sidebar/ */		
+			.with-sidebar {
+			  overflow: hidden;
+			}
+
+			.with-sidebar > * {
+			  display: flex;
+			  flex-wrap: wrap;
+			  margin: calc( / 2 * -1);
+			}
+
+			.with-sidebar > * > * {
+			  margin: calc( / 2);
+			  flex-basis: 20rem;
+			  flex-grow: 1;
+			  padding:20px;
+			  
+ 
+			}
+
+			.with-sidebar > * > :first-child {
+			  flex-basis: 0;
+			  flex-grow: 999;
+			  min-width: calc(50% - );
+			  padding:20px;
+			}			
+			
+			.sidebar {
+				border-left:1px solid rgb(228,228,228);
+			}
+
+			
+				/* based on https://stackoverflow.com/a/43936462/9684 */
+				.search_form {
+				  /* This bit sets up the horizontal layout */
+				  display:flex;
+				  flex-direction:row;
+			  
+				  /* This bit draws the box around it */
+				  border:1px solid rgb(192,192,192); 
+				  background-color:white;
+				  padding:2px;
+				}
+			
+				.search_input {
+				  /* Tell the input to use all the available space */
+				  flex-grow:2;
+				  /* And hide the input\'s outline, so the form looks like the outline */
+				  border:none;
+				  
+				  font-size:18px;
+				}
+			
+				.search_button {
+				  /* Just a little styling to make it pretty */
+				  border:1px solid rgb(192,192,192);
+				  background:rgb(64,64,64);
+				  color:white;
+				}
+				
+				/* see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details */
+				details {
+			border: 1px solid #aaa;
+			border-radius: 4px;
+			padding: .5em .5em 0;
+			margin-bottom: .5em;
+				
+			background-color:white;
+				}
+			
+				summary {
+			font-weight: bold;
+			margin: -.5em -.5em 0;
+			padding: .5em;
+				
+			outline-style: none; /* hide the outline that appears when user clicks on summary */
+				}
+			
+				details[open] summary {
+			border-bottom: 1px solid #aaa;
+				}	
+					
+		</style>
+				
+		
+<!-- local --->
+		<script src="js/jquery.min.js">
+		</script>
+		<script src="js/ejs.min.js">
+		</script>
+		
+<!-- https://highlightjs.org -->
+		<link rel="stylesheet" href="js/highlight/github.min.css"> 
+		<script src="js/highlight/highlight.min.js">
+		</script>
+		
+<!-- templates -->
+		<script src="views/partials/utils.ejs">
+		</script>
+		<script src="views/feed_search.ejs">
+		</script>
+		<script src="views/thing.ejs">
+		</script>
+				
+		<script>
+			var template_jsonld = `
+			<%
+			if (item['@graph']) {
+				item = item['@graph'][0];
+			}
+			%>			
+			<details>
+				<summary>JSON-LD</summary>
+					<pre id="jsonldcode" style="white-space:pre-wrap;line-height:1em;"><code>
+<%= JSON.stringify(item, null, 2) %>
+					</code></pre>
+			</details>
+			`;
+				
+		</script>
+		
+		<script>
+			function wikidata() {
+			  var e = document.getElementById("wikidata");
+			  if (e) {
+				var sparql = e.getAttribute('data-sparql');
+
+				if (sparql) {
+
+				  $.getJSON("https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=" + encodeURIComponent(sparql),
+					function(data) {
+					  if (data.results.bindings.length != 0) {
+						html = 'Wikidata <a href="' + data.results.bindings[0].item.value + '" target="_new">' + data.results.bindings[0].item.value.replace("http://www.wikidata.org/entity/", "") + '</a>';
+					  }
+					  else {
+						html = '(Not in Wikidata)';
+					  }
+					  document.getElementById("wikidata").innerHTML = html;
+					});
+
+				}
+			  }
+			}
+		</script>
+		<script>
+			
+			//----------------------------------------------------------------------------
+			// Find out what type of entity our graph contains (assume that we
+			//  only care about the first entity i the grap because the graph has been framed)
+			function get_entity_types(entity) {
+			  var types = [];
+		
+			  if (entity['@graph']) {
+				if (Array.isArray(entity['@graph'][0]['@type'])) {
+				  types = entity['@graph'][0]['@type'];
+				}
+				else {
+				  types.push(entity['@graph'][0]['@type']);
+				}
+		
+			  }
+			  else {
+				if (Array.isArray(entity['@type'])) {
+				  types = entity['@type'];
+				}
+				else {
+				  types.push(entity['@type']);
+				}
+			  }
+			  
+			  return types;
+			}	
+					
+			//----------------------------------------------------------------------------
+			function render(template, data, element_id) {
+			
+				// Render template 	
+				html = ejs.render(template, data);
+				
+				// Display
+				document.getElementById(element_id).innerHTML = html;
+			}
+			
+			
+			//----------------------------------------------------------------------------
+			function show_record(id) {
+				document.getElementById('output').innerHTML = '';
+				document.getElementById("wikidata").innerHTML = '';
+				document.getElementById("jsonld").innerHTML = '';
+		
+				$('#search').val('');
+				
+				alert(id);
+		
+				$.getJSON('api_get.php?uri=' +
+				  encodeURIComponent(id) +
+				  '&callback=?',
+				  function(data) {
+					if (data) {
+					
+					  console.log(JSON.stringify(data, null, 2));
+		
+					  //history.pushState(null, id, '?id=' + id);	
+		
+					  var types = get_entity_types(data);					
+					  
+					  var displayed = false;
+					  
+					  // domain-specific stuff goes here, e.g.
+						/*
+					  //--------------------------------------------------------------------
+					  if ((types.indexOf('ScholarlyArticle') !== -1) || (types.indexOf('CreativeWork') !== -1)) {
+		
+						// display article
+						render(template_work, {
+						  item: data
+						}, 'output');
+						
+						wikidata();
+						
+						displayed = true;
+		
+					  }
+					  */
+	
+					  
+					  // default display
+					  
+					  if (!displayed) {
+					  
+						render(template_thing, {
+						  item: data
+						}, 'output');
+						
+						wikidata();
+						
+						displayed = true;					  
+					  
+					  }
+					  
+					  // JSON-LD
+					  render(template_jsonld, {
+						  item: data
+						}, 'jsonld');
+						
+					  // syntax highlighting 			
+					  hljs.highlightBlock(document.getElementById('jsonldcode'));
+							  
+					  
+					}
+		
+				  }
+				);
+			}			
+		
+		
+		
+			//--------------------------------------------------------------------------------
+			function search() {
+			
+			  document.getElementById('output').innerHTML = '';
+			  document.getElementById("wikidata").innerHTML = '';
+			  document.getElementById("jsonld").innerHTML = '';
+		
+			  document.activeElement.blur();
+			  
+			  var q = document.getElementById('search').value;
+			  
+				// Change URL and title to match this query (makes for easier bookmarking)
+				history.pushState(null, q, '?q=' + q);	
+				document.title = q;				   
+		
+			  $.getJSON('api_search.php?q=' +
+				encodeURI(q) +
+				'&callback=?',
+				function(data) {
+		
+				  console.log(JSON.stringify(data, null, 2));
+		
+				 render(template_searchfeed, {
+					item: data
+					}, 'output');
+				}
+			  );
+			}		
+				
+		</script>
+		
+		<script>
+			//--------------------------------------------------------------------------------
+			// http://stackoverflow.com/a/11407464
+			$(document).keypress(function(event) {
+			  var keycode = (event.keyCode ? event.keyCode : event.which);
+			  if (keycode == '13') {
+				search();
+				// stop the event propogating beyond here
+				event.preventDefault();				
+			  }
+			});		
+					
+			//--------------------------------------------------------------------------------
+			//http://stackoverflow.com/a/25359264
+			$.urlParam = function(name) {
+			  var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+			  if (results == null) {
+				return null;
+			  }
+			  else {
+				return results[1] || 0;
+			  }
+			}	
+		</script>
+		
+	</head>
+	<body>
+		<div class="search_form">
+			<input id="search" class="search_input" value=""> 
+			<button id="search_button" class="search_button" onclick="search()">
+				Search
+			</button>
+		</div>
+		
+		
+		<div class="with-sidebar">
+		  <div> <!-- intermediary wrapper -->
+			<div><!-- non-sidebar -->
+			
+				<div id="output">
+				</div>
+				<div id="jsonld">
+				</div>
+			
+			</div>
+			<div class="sidebar"><!-- sidebar -->
+				<h4>Related</h4>
+				
+				<div id="wikidata"></div>
+			</div>
+		  </div>
+		</div>		
+	
+		<div>
+	
+		
+		<script>
+			// do we have a URL parameter?
+			var query = $.urlParam('q');
+			if (query) {
+			  query = decodeURIComponent(query);
+		
+			  $('#query').val(query);
+		
+			  search();
+			}
+			
+			var uri = $.urlParam('uri');
+			
+			if (uri) {
+			  show_record(decodeURIComponent(uri));
+		
+			}
+		</script>
+	</body>
+</html>

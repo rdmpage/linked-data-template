@@ -1,0 +1,27 @@
+RewriteEngine On
+
+# Some hosts may require you to use the `RewriteBase` directive.
+# If you need to use the `RewriteBase` directive, it should be the
+# absolute physical path to the directory that contains this htaccess file.
+#
+#RewriteBase /
+RewriteBase /~rpage/linked-data-template/
+
+
+#-----------------------------------------------------------------------------------------
+# URI
+# Note tha Apache converts "//" in protocol to single slash, so we need to rewrite URI
+# parameter
+
+# serve JSON-LD if requested via accept header
+RewriteCond %{HTTP_ACCEPT} application/json [OR]
+RewriteCond %{HTTP_ACCEPT} application/ld\+json 
+RewriteRule ^uri/https:(.*)$  api_get.php?uri=https:/$1 [R=303,L]
+RewriteRule ^uri/http:(.*)$  api_get.php?uri=https:/$1 [R=303,L]
+RewriteRule ^uri/urn:(.*)$  api_get.php?uri=https:/$1 [R=303,L]
+
+# HTML
+RewriteRule ^uri/https:(.*)$  ?uri=https:/$1 [L]
+RewriteRule ^uri/http:(.*)$  ?uri=http:/$1 [L]
+RewriteRule ^uri/urn:(.*)$  ?uri=urn:/$1 [L]
+
