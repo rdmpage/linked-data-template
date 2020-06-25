@@ -4,7 +4,11 @@ var template_searchfeed = `
 
 item = item['@graph'][0];
 
-%>
+
+if (!item) { %>
+	<div>Nothing found</div>
+<%  } else {%>
+
 
 <details open>
 
@@ -92,6 +96,6 @@ item = item['@graph'][0];
 
 </details>
 
-
+<% } %>
 
 `;
