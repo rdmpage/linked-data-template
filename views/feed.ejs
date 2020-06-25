@@ -1,0 +1,80 @@
+var template_datafeed = `
+
+<%
+
+item = item['@graph'][0];
+
+%>
+
+<details open>
+
+<!-- title -->
+<% if (item.name) { %>
+	<summary>
+		<%= get_literal(item.name) %>
+		(<%= item.dataFeedElement.length %>)
+	</summary>
+<% } %>
+
+
+<!-- data feed items -->
+<div class="feed" style="font-size:0.8em;line-height:1.4em;">
+	<% for (var i in item.dataFeedElement) { %>
+		<div style="padding-bottom:12px;border-top:1px dotted rgb(192,192,192);">
+		
+		
+		
+		<a href="./uri/<%= uri_to_clickable_url(item.dataFeedElement[i]['@id']) %>">
+		<h3>
+		<%- get_literal(item.dataFeedElement[i].name) %>
+		
+		<% if (item.dataFeedElement[i].numberOfItems) { %>
+			(<%- item.dataFeedElement[i].numberOfItems %>)
+		<% } %>
+		
+		</h3>
+		</a>
+		
+		<% if (item.dataFeedElement[i].description) { %>
+			<%- get_literal(item.dataFeedElement[i].description) %>
+		<% } %>
+		
+		
+		<!-- date -->
+		<% if (item.dataFeedElement[i].datePublished) {%>
+			<div>
+			<%= isodate_to_string(item.dataFeedElement[i].datePublished) %>
+			</div>
+		<% } %>
+		
+		<!-- identifiers -->
+		<div>
+		<% if (item.dataFeedElement[i].identifier) {
+			 var id = '';
+	 
+			// DOI
+			id = get_property_value(item.dataFeedElement[i].identifier, 'doi');	  
+			if (id != '') {  %>	
+				DOI:
+				<!-- <a href="https://doi.org/<%=id%>"> -->
+				<%= id %>
+				<!-- </a> -->
+			<% }
+	
+			}
+		 %>	
+		 </div>			
+
+
+		
+		</div>
+	<% } %>
+
+
+</div>
+
+</details>
+
+
+
+`;

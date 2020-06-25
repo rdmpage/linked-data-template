@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- base -->
-   		<!-- <base href="/~rpage/linked-data-template/" /> --> <!--[if IE]></base><![endif]-->
-  		<base href="/" /><!--[if IE]></base><![endif]-->
+   		<base href="/~rpage/linked-data-template/" />  <!--[if IE]></base><![endif]-->
+  		<!-- <base href="/" /> --> <!--[if IE]></base><![endif]-->
 		
 		<title>
 			LD Template
@@ -20,6 +20,15 @@
 			h1 {
 				line-height:1.2em;
 			}
+			
+			a {
+				text-decoration:none;
+				color:rgb(28,27,168);
+			}
+
+			a:hover {
+				text-decoration:underline;
+			}			
 			
 			.td_key {
 				font-weight: bold;
@@ -129,6 +138,8 @@
 <!-- templates -->
 		<script src="views/partials/utils.ejs">
 		</script>
+		<script src="views/feed.ejs">
+		</script>		
 		<script src="views/feed_search.ejs">
 		</script>
 		<script src="views/thing.ejs">
@@ -213,10 +224,28 @@
 				document.getElementById(element_id).innerHTML = html;
 			}
 			
+			//----------------------------------------------------------------------------
+			function show_feed_creator_works(id) {
+			  $.getJSON('api_feed_creator_works.php?uri=' +
+				id +
+				'&callback=?',
+				function(data) {
+				  if (data) {
+				  	if (data['@graph'].length > 0) {
+						render(template_datafeed, {
+						  item: data
+						}, 'feeds');
+					}
+				  }
+				}
+			  );
+			}				
+			
 			
 			//----------------------------------------------------------------------------
 			function show_record(id) {
 				document.getElementById('output').innerHTML = '';
+				document.getElementById("feeds").innerHTML = '';
 				document.getElementById("wikidata").innerHTML = '';
 				document.getElementById("jsonld").innerHTML = '';
 			    document.getElementById("download").innerHTML = '';
@@ -265,6 +294,8 @@
 						  item: data
 						}, 'output');
 						
+						show_feed_creator_works(id);
+						
 						wikidata();
 						
 						displayed = true;					  
@@ -297,6 +328,7 @@
 			function search() {
 			
 			  document.getElementById('output').innerHTML = '';
+			  document.getElementById("feeds").innerHTML = '';
 			  document.getElementById("wikidata").innerHTML = '';
 			  document.getElementById("jsonld").innerHTML = '';
 			  document.getElementById("download").innerHTML = '';
@@ -368,6 +400,8 @@
 			<div><!-- non-sidebar -->
 			
 				<div id="output">
+				</div>
+				<div id="feeds">
 				</div>
 				<div id="jsonld">
 				</div>
