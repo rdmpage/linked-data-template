@@ -218,6 +218,7 @@
 				document.getElementById('output').innerHTML = '';
 				document.getElementById("wikidata").innerHTML = '';
 				document.getElementById("jsonld").innerHTML = '';
+			    document.getElementById("download").innerHTML = '';
 		
 				$('#search').val('');
 				
@@ -269,6 +270,11 @@
 					  
 					  }
 					  
+					  // Download link
+					  var download_html = '<a href="./uri/' + id + '.json"><img src="images/json-ld-logo.svg" width="48" ></a>';
+					  document.getElementById("download").innerHTML = download_html;
+
+					  
 					  // JSON-LD
 					  render(template_jsonld, {
 						  item: data
@@ -292,6 +298,7 @@
 			  document.getElementById('output').innerHTML = '';
 			  document.getElementById("wikidata").innerHTML = '';
 			  document.getElementById("jsonld").innerHTML = '';
+			  document.getElementById("download").innerHTML = '';
 		
 			  document.activeElement.blur();
 			  
@@ -366,6 +373,7 @@
 			
 			</div>
 			<div class="sidebar"><!-- sidebar -->
+				<div id="download"></div>
 				<h4>Related</h4>
 				
 				<div id="wikidata"></div>
