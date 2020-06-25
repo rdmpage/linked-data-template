@@ -63,4 +63,6 @@ else
 	$config['sparql_endpoint']	= $config['blazegraph-url'] . '/blazegraph/sparql'; 
 }
 
+print_r($config);
+
 ?>
