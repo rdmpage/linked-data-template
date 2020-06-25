@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ff7bb059dcafa30aa4b0826128d7848",
+    "content-hash": "f22eaf3a0cf4ab9a832b01ef89b9a59a",
     "packages": [
         {
             "name": "digitalbazaar/json-ld",
@@ -59,6 +59,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-mbstring": "*"
+    },
     "platform-dev": []
 }

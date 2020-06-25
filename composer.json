@@ -1,7 +1,8 @@
 {
     "name": "rpage/linked-data-template",
     "require": {
-        "digitalbazaar/json-ld": "^0.4.7"
+        "digitalbazaar/json-ld": "^0.4.7",
+        "ext-mbstring": "*"
     },
     "authors": [
         {
