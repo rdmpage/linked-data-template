@@ -330,6 +330,7 @@ function sparql_search($sparql_endpoint, $search_string, $format='application/ld
 	
 	$query = 'PREFIX schema: <http://schema.org/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 CONSTRUCT 
@@ -367,8 +368,12 @@ WHERE
   }
   UNION
   {
-     ?item dc:title ?name .
+     ?item dcterms:title ?name .
   } 
+  UNION
+  {
+     ?item dc:title ?name .
+  }  
   UNION
   {
      ?item foaf:name ?name .
