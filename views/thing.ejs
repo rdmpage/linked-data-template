@@ -6,6 +6,8 @@ if (item['@graph']) {
 	item = item['@graph'][0];
 }
 
+var wikidata = [];
+
 %>
 
 <!-- title -->
@@ -51,6 +53,40 @@ if (item['@graph']) {
 </table>
 
 </div>
+
+<!-- identifiers for mapping to Wikidata -->
+
+
+<% 
+	// ORCID
+	if (item['@id'].match(/orcid.org/)) {
+		var orcid =  item['@id'];
+		orcid = orcid.replace('https://orcid.org/', '');
+		wikidata.push('?item wdt:P496 "' + orcid + '"');
+	}
+	
+	// DOI
+	if (item['@id'].match(/doi.org/)) { 
+		var doi = item['@id'];
+		
+		doi = doi.replace(new RegExp('https?:\/\/(dx.)?doi.org\/'), '');
+		wikidata.push('?item wdt:P356 "' + doi.toUpperCase() + '"');
+	}
+	
+%>
+
+<!-- wikidata -->
+<% 
+	if (wikidata.length > 0) {
+		var sparql = 'SELECT * WHERE {';
+		
+		sparql += '{' + wikidata.join('} UNION { ') + '}';
+
+		sparql += '}'; 
+		
+		document.getElementById("wikidata").setAttribute("data-sparql", sparql);
+	}
+%>
 
 
 

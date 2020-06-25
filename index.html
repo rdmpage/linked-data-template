@@ -173,10 +173,10 @@
 				  $.getJSON("https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=" + encodeURIComponent(sparql),
 					function(data) {
 					  if (data.results.bindings.length != 0) {
-						html = 'Wikidata <a href="' + data.results.bindings[0].item.value + '" target="_new">' + data.results.bindings[0].item.value.replace("http://www.wikidata.org/entity/", "") + '</a>';
-					  }
-					  else {
-						html = '(Not in Wikidata)';
+					  
+					  
+					  
+						html = '<div><img style="vertical-align:middle" src="images/Wikidata-logo-en.svg" width="48" ><a href="' + data.results.bindings[0].item.value + '" target="_new">' + data.results.bindings[0].item.value.replace("http://www.wikidata.org/entity/", "") + '</a></div>';
 					  }
 					  document.getElementById("wikidata").innerHTML = html;
 					});
