@@ -1,5 +1,6 @@
 <?php
 
+error_reporting(E_ALL);
 
 global $config;
 
@@ -18,7 +19,7 @@ switch ($site)
 {
 	case 'heroku':
 		// Server-------------------------------------------------------------------------
-		$config['web_server']	= 'https://ld-template-demo.herokuapp.com/'; 
+		$config['web_server']	= 'https://ld-template-demo.herokuapp.com'; 
 		$config['site_name']	= 'LD Template';
 
 		// Files--------------------------------------------------------------------------
