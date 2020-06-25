@@ -12,8 +12,8 @@ mb_internal_encoding("UTF-8");
 
 // Hosting--------------------------------------------------------------------------------
 
-$site = 'local';
-//$site = 'heroku';
+//$site = 'local';
+$site = 'heroku';
 
 switch ($site)
 {
@@ -64,6 +64,5 @@ else
 	$config['sparql_endpoint']	= $config['blazegraph-url'] . '/blazegraph/sparql'; 
 }
 
-// print_r($config);
 
 ?>
