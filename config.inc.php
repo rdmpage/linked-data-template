@@ -12,14 +12,14 @@ mb_internal_encoding("UTF-8");
 // Hosting--------------------------------------------------------------------------------
 
 $site = 'local';
-//$site = 'heroku';
+$site = 'heroku';
 
 switch ($site)
 {
 	case 'heroku':
 		// Server-------------------------------------------------------------------------
-		$config['web_server']	= 'https://xxx.herokuapp.com'; 
-		$config['site_name']	= 'LOIS Lite';
+		$config['web_server']	= 'https://ld-template-demo.herokuapp.com/'; 
+		$config['site_name']	= 'LD Template';
 
 		// Files--------------------------------------------------------------------------
 		$config['web_dir']		= dirname(__FILE__);
@@ -30,7 +30,7 @@ switch ($site)
 	default:
 		// Server-------------------------------------------------------------------------
 		$config['web_server']	= 'http://localhost'; 
-		$config['site_name']	= 'LD template';
+		$config['site_name']	= 'LD Template';
 
 		// Files--------------------------------------------------------------------------
 		$config['web_dir']		= dirname(__FILE__);
