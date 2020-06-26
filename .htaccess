@@ -33,10 +33,17 @@ RewriteRule ^uri/urn:(.*).json$  api_get.php?uri=urn:$1 [L]
 
 
 # HTML
-RewriteCond %{HTTP_ACCEPT} !application/rdf\+xml.*(text/html|application/xhtml\+xml)
+
+# https?
+RewriteCond %{HTTP_ACCEPT} !application/rld\+json.*(text/html|application/xhtml\+xml)
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
-RewriteRule ^uri/https:(.*)$  ?uri=https:/$1 [L]
-RewriteRule ^uri/http:(.*)$  ?uri=http:/$1 [L]
+RewriteRule ^uri/(https?):(.*)$  ?uri=$1:/$2 [L]
+
+# urn
+RewriteCond %{HTTP_ACCEPT} !application/ld\+json.*(text/html|application/xhtml\+xml)
+RewriteCond %{HTTP_ACCEPT} text/html [OR]
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
 RewriteRule ^uri/urn:(.*)$  ?uri=urn:$1 [L]
