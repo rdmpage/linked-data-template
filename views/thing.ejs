@@ -78,7 +78,7 @@ var wikidata = [];
 		var lsid = item['@id'];
 		
 		lsid = lsid.replace(new RegExp('urn:lsid:ipni.org:names:'), '');
-		wikidata.push('?item wdt:P961 "' + lsid) + '"');
+		wikidata.push('?item wdt:P961 "' + lsid + '"');
 	}		
 	
 	// WORMS
@@ -86,7 +86,7 @@ var wikidata = [];
 		var lsid = item['@id'];
 		
 		lsid = lsid.replace(new RegExp('urn:lsid:marinespecies.org:taxname:'), '');
-		wikidata.push('?item wdt:P850 "' + lsid) + '"');
+		wikidata.push('?item wdt:P850 "' + lsid + '"');
 	}	
 	
 %>
