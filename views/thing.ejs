@@ -73,6 +73,22 @@ var wikidata = [];
 		wikidata.push('?item wdt:P356 "' + doi.toUpperCase() + '"');
 	}
 	
+	// IPNI name
+	if (item['@id'].match(/urn:lsid:ipni.org:names:/)) { 
+		var lsid = item['@id'];
+		
+		lsid = lsid.replace(new RegExp('urn:lsid:ipni.org:names:'), '');
+		wikidata.push('?item wdt:P961 "' + lsid) + '"');
+	}		
+	
+	// WORMS
+	if (item['@id'].match(/urn:lsid:marinespecies.org:taxname:/)) { 
+		var lsid = item['@id'];
+		
+		lsid = lsid.replace(new RegExp('urn:lsid:marinespecies.org:taxname:'), '');
+		wikidata.push('?item wdt:P850 "' + lsid) + '"');
+	}	
+	
 %>
 
 <!-- wikidata -->
