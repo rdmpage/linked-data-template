@@ -101,13 +101,15 @@
 				.search_button {
 				  /* Just a little styling to make it pretty */
 				  /* border:1px solid rgb(192,192,192); */
+				  border: none;
+				  outline: none;
 				  background:rgb(28,27,168);
 				  color:white;
 				}
 				
 				/* see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details */
 				details {
-			border: 1px solid #aaa;
+			border: 1px solid rgb(228,228,228);
 			border-radius: 4px;
 			padding: .5em .5em 0;
 			margin-bottom: .5em;
@@ -124,7 +126,7 @@
 				}
 			
 				details[open] summary {
-			border-bottom: 1px solid #aaa;
+			border-bottom: 1px solid rgb(228,228,228);
 				}	
 					
 		</style>
@@ -394,7 +396,7 @@
 	</head>
 	<body>
 		<div class="search_form">
-			<input id="search" class="search_input" value="" placeholder="Search"> 
+			<input id="search" class="search_input" value="" placeholder=""> 
 			<button id="search_button" class="search_button" onclick="search()">
 				Search
 			</button>
