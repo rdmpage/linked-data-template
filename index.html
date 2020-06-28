@@ -85,6 +85,7 @@
 			  
 				  /* This bit draws the box around it */
 				  border:1px solid rgb(228,228,228); 
+				  border-radius: 4px;
 				  background-color:white;
 				  padding:2px;
 				}
@@ -95,7 +96,7 @@
 				  /* And hide the input\'s outline, so the form looks like the outline */
 				  border:none;
 				  
-				  font-size:24px;
+				  font-size:18px;
 				}
 			
 				.search_button {
@@ -103,8 +104,11 @@
 				  /* border:1px solid rgb(192,192,192); */
 				  border: none;
 				  outline: none;
+				  border-radius: 4px;
 				  background:rgb(28,27,168);
 				  color:white;
+				  font-size:16px;
+				  font-weight:bold;
 				}
 				
 				/* see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details */
@@ -432,6 +436,9 @@
 			var query = $.urlParam('q');
 			if (query) {
 			  query = decodeURIComponent(query);
+			  
+			  query = query.replace(/^\s+/, '');
+			  query = query.replace(/\s+$/, '');
 		
 			  $('#query').val(query);
 		
