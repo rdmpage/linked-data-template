@@ -17,6 +17,42 @@
 		<dict>
 			<key>BookmarkData</key>
 			<data>
+			Ym9vaygDAAAAAAQQMAAAAJcG3u7puryH+fWTFUwL2utIbkw8dptn
+			DgAuIKk8XBU1GAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
+			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUKAAAAAQEAAGluZGV4Lmh0
+			bWwAABQAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMA
+			ABBnAgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZMAAAA
+			AAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAADm+B4EAwAAABQAAAAB
+			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHCTo9QM/jI
+			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
+			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
+			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
+			BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1C
+			NDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
+			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
+			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAAFaAQDY
+			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
+			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
+			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
+			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
+			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
+			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/rpage/Sites/linked-data-template/index.html</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./index.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
 			Ym9va+gCAAAAAAQQMAAAAPKFc28aBe8U7aWy+3oEWt1XaH8kmRX5
 			vN7iQs4nJfSS5AEAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
 			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
@@ -702,47 +738,11 @@
 			<key>Version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
-			Ym9vaygDAAAAAAQQMAAAAJcG3u7puryH+fWTFUwL2utIbkw8dptn
-			DgAuIKk8XBU1GAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
-			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUKAAAAAQEAAGluZGV4Lmh0
-			bWwAABQAAAABBgAAEAAAACAAAAAwAAAAQAAAAFwAAAAIAAAABAMA
-			ABBnAgAAAAAACAAAAAQDAACFdA0AAAAAAAgAAAAEAwAABFZMAAAA
-			AAAIAAAABAMAAHUnHgQDAAAACAAAAAQDAADm+B4EAwAAABQAAAAB
-			BgAAjAAAAJwAAACsAAAAvAAAAMwAAAAIAAAAAAQAAEHCTo9QM/jI
-			GAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMA
-			AAMAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwA
-			AAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAA4AQDaQAAAAgAAAAA
-			BAAAQb7dXWIAAAAkAAAAAQEAADI1RTQyODZELTcxMkMtMzg5OS1C
-			NDNGLTVEM0Y2QThCRDEyMRgAAAABAgAAgQAAAAEAAADvEwAAAQAA
-			AAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5T
-			VVJMRG9jdW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAAFaAQDY
-			AAAA/v///wEAAAAAAAAAEQAAAAQQAABwAAAAAAAAAAUQAADcAAAA
-			AAAAABAQAAAIAQAAAAAAAEAQAAD4AAAAAAAAAAIgAADUAQAAAAAA
-			AAUgAABEAQAAAAAAABAgAABUAQAAAAAAABEgAACIAQAAAAAAABIg
-			AABoAQAAAAAAABMgAAB4AQAAAAAAACAgAAC0AQAAAAAAADAgAADg
-			AQAAAAAAAAHAAAAoAQAAAAAAABHAAAAgAAAAAAAAABLAAAA4AQAA
-			AAAAABDQAAAEAAAAAAAAAOgBAIAMAgAAAAAAAA==
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/rpage/Sites/linked-data-template/index.html</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./index.html</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsSplitterProportion</key>
-	<real>0.75</real>
+	<real>0.69162995594713661</real>
 	<key>ProjectItemsExpanded</key>
 	<true/>
 	<key>ProjectViewVisible</key>
@@ -751,7 +751,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -796,7 +796,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -839,7 +839,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -883,7 +883,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -924,7 +924,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -966,7 +966,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1009,7 +1009,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1055,7 +1055,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1099,7 +1099,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1143,7 +1143,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1184,7 +1184,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1225,7 +1225,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1267,7 +1267,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1310,7 +1310,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1353,7 +1353,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-26T14:45:07Z</date>
+			<date>2020-06-28T10:27:47Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>

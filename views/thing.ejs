@@ -32,8 +32,30 @@ var wikidata = [];
 			title = get_literal(item['dc:title']);
 		}
 	}
-	%>
-   <%= title %>
+	
+	if (title == '') {
+		if (item['foaf:name']) {
+			title = get_literal(item['foaf:name');
+		}
+	}	
+	
+	// Special case of a person that has only givenName and familyName (e.g. ORCID JSON-LD)
+	if (title == '') {
+		var nameparts = [];
+		if (item.givenName) {
+			nameparts.push(get_literal(item.givenName));
+		}
+		if (item.familyName) {
+			nameparts.push(get_literal(item.familyName));
+		}
+		if (nameparts.length > 0) {			
+			title = nameparts.join(' ');
+		}
+	}	
+	
+	if (title != '') { %>
+		<%= title %>
+	<% } %>
 </h1>
 
 <!-- other things -->
