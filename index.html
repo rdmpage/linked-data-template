@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- base -->
-   		<!-- <base href="/~rpage/linked-data-template/" /> --> 
+   		<!-- <base href="/~rpage/linked-data-template/" />  --> 
   		<base href="/" /> 
   		<!--[if IE]></base><![endif]-->
 		
@@ -204,14 +204,10 @@
 				  $.getJSON("https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=" + encodeURIComponent(sparql),
 					function(data) {
 					  if (data.results.bindings.length != 0) {
-					  
-					  
-					  
 						html = '<div><img style="vertical-align:middle" src="images/Wikidata-logo-en.svg" width="48" ><a href="' + data.results.bindings[0].item.value + '" target="_new">' + data.results.bindings[0].item.value.replace("http://www.wikidata.org/entity/", "") + '</a></div>';
-					  }
-					  document.getElementById("wikidata").innerHTML = html;
+						document.getElementById("wikidata").innerHTML = html;
+					  }					  
 					});
-
 				}
 			  }
 			}
@@ -345,7 +341,7 @@
 						
 					  // syntax highlighting 			
 					  hljs.highlightBlock(document.getElementById('jsonldcode'));
-							  
+					
 					  
 					}
 		
