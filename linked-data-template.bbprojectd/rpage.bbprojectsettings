@@ -17,6 +17,42 @@
 		<dict>
 			<key>BookmarkData</key>
 			<data>
+			Ym9vaywDAAAAAAQQMAAAAF9UFBDM4g5dvqPEpIUAlM2rS24IEpD3
+			Gq1RF+ZiAlI2HAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
+			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUPAAAAAQEAAHRyaXBsZXN0
+			b3JlLnBocAAUAAAAAQYAABAAAAAgAAAAMAAAAEAAAABcAAAACAAA
+			AAQDAAAQZwIAAAAAAAgAAAAEAwAAhXQNAAAAAAAIAAAABAMAAARW
+			TAAAAAAACAAAAAQDAAB1Jx4EAwAAAAgAAAAEAwAA8AcfBAMAAAAU
+			AAAAAQYAAJAAAACgAAAAsAAAAMAAAADQAAAACAAAAAAEAABBv8l0
+			EgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAA
+			AAQDAAADAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTov
+			Ly8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAOAEA2kAAAAI
+			AAAAAAQAAEG+3V1iAAAAJAAAAAEBAAAyNUU0Mjg2RC03MTJDLTM4
+			OTktQjQzRi01RDNGNkE4QkQxMjEYAAAAAQIAAIEAAAABAAAA7xMA
+			AAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAGgAAAAEB
+			AABOU1VSTERvY3VtZW50SWRlbnRpZmllcktleQAABAAAAAMDAAAC
+			WgEA2AAAAP7///8BAAAAAAAAABEAAAAEEAAAdAAAAAAAAAAFEAAA
+			4AAAAAAAAAAQEAAADAEAAAAAAABAEAAA/AAAAAAAAAACIAAA2AEA
+			AAAAAAAFIAAASAEAAAAAAAAQIAAAWAEAAAAAAAARIAAAjAEAAAAA
+			AAASIAAAbAEAAAAAAAATIAAAfAEAAAAAAAAgIAAAuAEAAAAAAAAw
+			IAAA5AEAAAAAAAABwAAALAEAAAAAAAARwAAAIAAAAAAAAAASwAAA
+			PAEAAAAAAAAQ0AAABAAAAAAAAADsAQCAEAIAAAAAAAA=
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/rpage/Sites/linked-data-template/triplestore.php</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./triplestore.php</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
 			Ym9vaygDAAAAAAQQMAAAAJcG3u7puryH+fWTFUwL2utIbkw8dptn
 			DgAuIKk8XBU1GAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
 			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
@@ -45,6 +81,43 @@
 			<true/>
 			<key>RelativePath</key>
 			<string>./index.html</string>
+			<key>TypeID</key>
+			<string>_CFileLocator</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>BookmarkData</key>
+			<data>
+			Ym9va1ADAAAAAAQQMAAAAM+D5mzJ3U+8J0AvjiVCTa+5xq6haexG
+			+tLfDV9kbe9HQAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
+			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
+			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUFAAAAAQEAAHZpZXdzAAAA
+			CQAAAAEBAAB0aGluZy5lanMAAAAYAAAAAQYAABAAAAAgAAAAMAAA
+			AEAAAABcAAAAbAAAAAgAAAAEAwAAEGcCAAAAAAAIAAAABAMAAIV0
+			DQAAAAAACAAAAAQDAAAEVkwAAAAAAAgAAAAEAwAAdSceBAMAAAAI
+			AAAABAMAAAXLHgQDAAAACAAAAAQDAADKDyEEAwAAABgAAAABBgAA
+			oAAAALAAAADAAAAA0AAAAOAAAADwAAAACAAAAAAEAABBwZcVspUT
+			gBgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQD
+			AAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8M
+			AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAOAEA2kAAAAIAAAA
+			AAQAAEG+3V1iAAAAJAAAAAEBAAAyNUU0Mjg2RC03MTJDLTM4OTkt
+			QjQzRi01RDNGNkE4QkQxMjEYAAAAAQIAAIEAAAABAAAA7xMAAAEA
+			AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAGgAAAAEBAABO
+			U1VSTERvY3VtZW50SWRlbnRpZmllcktleQAABAAAAAMDAAAMWgEA
+			2AAAAP7///8BAAAAAAAAABEAAAAEEAAAgAAAAAAAAAAFEAAAAAEA
+			AAAAAAAQEAAAMAEAAAAAAABAEAAAIAEAAAAAAAACIAAA/AEAAAAA
+			AAAFIAAAbAEAAAAAAAAQIAAAfAEAAAAAAAARIAAAsAEAAAAAAAAS
+			IAAAkAEAAAAAAAATIAAAoAEAAAAAAAAgIAAA3AEAAAAAAAAwIAAA
+			CAIAAAAAAAABwAAAUAEAAAAAAAARwAAAIAAAAAAAAAASwAAAYAEA
+			AAAAAAAQ0AAABAAAAAAAAAAQAgCANAIAAAAAAAA=
+			</data>
+			<key>FileURL</key>
+			<string>file:///Users/rpage/Sites/linked-data-template/views/thing.ejs</string>
+			<key>HasSecurityScope</key>
+			<true/>
+			<key>RelativePath</key>
+			<string>./views/thing.ejs</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -264,43 +337,6 @@
 			<true/>
 			<key>RelativePath</key>
 			<string>./views/partials/utils.ejs</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
-			Ym9va1ADAAAAAAQQMAAAAM+D5mzJ3U+8J0AvjiVCTa+5xq6haexG
-			+tLfDV9kbe9HQAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
-			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUFAAAAAQEAAHZpZXdzAAAA
-			CQAAAAEBAAB0aGluZy5lanMAAAAYAAAAAQYAABAAAAAgAAAAMAAA
-			AEAAAABcAAAAbAAAAAgAAAAEAwAAEGcCAAAAAAAIAAAABAMAAIV0
-			DQAAAAAACAAAAAQDAAAEVkwAAAAAAAgAAAAEAwAAdSceBAMAAAAI
-			AAAABAMAAAXLHgQDAAAACAAAAAQDAADKDyEEAwAAABgAAAABBgAA
-			oAAAALAAAADAAAAA0AAAAOAAAADwAAAACAAAAAAEAABBwZcVspUT
-			gBgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQD
-			AAAEAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8M
-			AAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAOAEA2kAAAAIAAAA
-			AAQAAEG+3V1iAAAAJAAAAAEBAAAyNUU0Mjg2RC03MTJDLTM4OTkt
-			QjQzRi01RDNGNkE4QkQxMjEYAAAAAQIAAIEAAAABAAAA7xMAAAEA
-			AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAGgAAAAEBAABO
-			U1VSTERvY3VtZW50SWRlbnRpZmllcktleQAABAAAAAMDAAAMWgEA
-			2AAAAP7///8BAAAAAAAAABEAAAAEEAAAgAAAAAAAAAAFEAAAAAEA
-			AAAAAAAQEAAAMAEAAAAAAABAEAAAIAEAAAAAAAACIAAA/AEAAAAA
-			AAAFIAAAbAEAAAAAAAAQIAAAfAEAAAAAAAARIAAAsAEAAAAAAAAS
-			IAAAkAEAAAAAAAATIAAAoAEAAAAAAAAgIAAA3AEAAAAAAAAwIAAA
-			CAIAAAAAAAABwAAAUAEAAAAAAAARwAAAIAAAAAAAAAASwAAAYAEA
-			AAAAAAAQ0AAABAAAAAAAAAAQAgCANAIAAAAAAAA=
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/rpage/Sites/linked-data-template/views/thing.ejs</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./views/thing.ejs</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -631,42 +667,6 @@
 		<dict>
 			<key>BookmarkData</key>
 			<data>
-			Ym9vaywDAAAAAAQQMAAAAF9UFBDM4g5dvqPEpIUAlM2rS24IEpD3
-			Gq1RF+ZiAlI2HAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
-			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
-			AQAAbGlua2VkLWRhdGEtdGVtcGxhdGUPAAAAAQEAAHRyaXBsZXN0
-			b3JlLnBocAAUAAAAAQYAABAAAAAgAAAAMAAAAEAAAABcAAAACAAA
-			AAQDAAAQZwIAAAAAAAgAAAAEAwAAhXQNAAAAAAAIAAAABAMAAARW
-			TAAAAAAACAAAAAQDAAB1Jx4EAwAAAAgAAAAEAwAA8AcfBAMAAAAU
-			AAAAAQYAAJAAAACgAAAAsAAAAMAAAADQAAAACAAAAAAEAABBv8l0
-			EgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAA
-			AAQDAAADAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTov
-			Ly8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAOAEA2kAAAAI
-			AAAAAAQAAEG+3V1iAAAAJAAAAAEBAAAyNUU0Mjg2RC03MTJDLTM4
-			OTktQjQzRi01RDNGNkE4QkQxMjEYAAAAAQIAAIEAAAABAAAA7xMA
-			AAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAGgAAAAEB
-			AABOU1VSTERvY3VtZW50SWRlbnRpZmllcktleQAABAAAAAMDAAAC
-			WgEA2AAAAP7///8BAAAAAAAAABEAAAAEEAAAdAAAAAAAAAAFEAAA
-			4AAAAAAAAAAQEAAADAEAAAAAAABAEAAA/AAAAAAAAAACIAAA2AEA
-			AAAAAAAFIAAASAEAAAAAAAAQIAAAWAEAAAAAAAARIAAAjAEAAAAA
-			AAASIAAAbAEAAAAAAAATIAAAfAEAAAAAAAAgIAAAuAEAAAAAAAAw
-			IAAA5AEAAAAAAAABwAAALAEAAAAAAAARwAAAIAAAAAAAAAASwAAA
-			PAEAAAAAAAAQ0AAABAAAAAAAAADsAQCAEAIAAAAAAAA=
-			</data>
-			<key>FileURL</key>
-			<string>file:///Users/rpage/Sites/linked-data-template/triplestore.php</string>
-			<key>HasSecurityScope</key>
-			<true/>
-			<key>RelativePath</key>
-			<string>./triplestore.php</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>BookmarkData</key>
-			<data>
 			Ym9vazgDAAAAAAQQMAAAAGsglSWkSkfTrcJ2jM0te4SVpei7v0m1
 			ZjcF1VneXw/oKAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMA
 			AAAFAAAAAQEAAHJwYWdlAAAABQAAAAEBAABTaXRlcwAAABQAAAAB
@@ -751,7 +751,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -796,7 +796,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -839,7 +839,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -883,7 +883,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -924,7 +924,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -966,7 +966,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1009,7 +1009,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1055,7 +1055,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1099,7 +1099,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1143,7 +1143,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1184,7 +1184,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1225,7 +1225,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1267,7 +1267,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1310,7 +1310,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1353,7 +1353,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-06-28T10:27:47Z</date>
+			<date>2020-07-07T21:43:15Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>

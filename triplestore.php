@@ -143,6 +143,28 @@ WHERE {
 }';
 	
 	// doman specific CONSTRUCT goes here
+$query = 'PREFIX schema: <http://schema.org/>
+	PREFIX fabio: <http://purl.org/spar/fabio/>
+	PREFIX trt: <http://plazi.org/vocab/treatment#>
+
+   CONSTRUCT {
+   ?thing ?p ?o .
+   
+   # Plazi reatment and figures
+   ?treatment trt:publishedIn ?thing .
+   ?treatment  fabio:hasPart ?figure .
+   ?figure rdf:type fabio:Figure .
+   
+}
+WHERE {
+   VALUES ?thing { <' . $uri . '> }
+   ?thing ?p ?o .
+   
+   ?treatment trt:publishedIn ?thing .
+   ?treatment  fabio:hasPart ?figure .
+   ?figure rdf:type fabio:Figure .
+   
+}';	
 
 
 	$data = 'query=' . urlencode($query);

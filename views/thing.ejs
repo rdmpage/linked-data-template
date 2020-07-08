@@ -76,6 +76,34 @@ var wikidata = [];
 
 </div>
 
+<!-- test -->
+
+<!-- Plazi image gallery -->
+<% 
+if (item.hasPart) {
+	for (var i in item.hasPart) {
+		if (item.hasPart[i]['fabio:hasPart']) {%>
+			<h3>Images</h3>
+			<div class="image-container">
+		
+			<% for (var j in item.hasPart[i]['fabio:hasPart']) { %>
+			
+			<img class="image-item" src="http://exeg5le.cloudimg.io/s/height/200/<%- item.hasPart[i]['fabio:hasPart'][j]['@id'] %>">
+				
+			<%
+			}
+			%>
+			</div>
+			<%
+		}
+	}
+
+}
+
+
+%>
+
+
 <!-- identifiers for mapping to Wikidata -->
 
 
