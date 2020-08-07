@@ -160,12 +160,16 @@ WHERE {
    VALUES ?thing { <' . $uri . '> }
    ?thing ?p ?o .
    
-   ?treatment trt:publishedIn ?thing .
-   ?treatment  fabio:hasPart ?figure .
-   ?figure rdf:type fabio:Figure .
+   OPTIONAL {
+   	?treatment trt:publishedIn ?thing .
+   	?treatment  fabio:hasPart ?figure .
+   	?figure rdf:type fabio:Figure .
+   }
    
 }';	
 
+
+	//echo $query;
 
 	$data = 'query=' . urlencode($query);
 	

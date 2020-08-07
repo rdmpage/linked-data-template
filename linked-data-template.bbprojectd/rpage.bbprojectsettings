@@ -742,7 +742,7 @@
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsSplitterProportion</key>
-	<real>0.69162995594713661</real>
+	<real>0.73450292397660821</real>
 	<key>ProjectItemsExpanded</key>
 	<true/>
 	<key>ProjectViewVisible</key>
@@ -751,7 +751,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -796,7 +796,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -839,7 +839,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -883,7 +883,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -924,7 +924,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -966,7 +966,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1009,7 +1009,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1055,7 +1055,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1099,7 +1099,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1143,7 +1143,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1184,7 +1184,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1225,7 +1225,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1267,7 +1267,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1310,7 +1310,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1353,7 +1353,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2020-07-07T21:43:15Z</date>
+			<date>2020-08-05T11:34:20Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -1406,6 +1406,6 @@
 	<key>ViewSplitterPosition:rpage</key>
 	<real>0.20588235557079315</real>
 	<key>WindowFrame:rpage:displays([(0, 0), (1440, 900)]:[(-1920, 0), (1920, 1080)])</key>
-	<string>rect(48,-1585,956,-599)</string>
+	<string>rect(135,-1585,990,-599)</string>
 </dict>
 </plist>
